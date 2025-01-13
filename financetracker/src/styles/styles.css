@@ -1,0 +1,205 @@
+body {
+  background-color: #ffe4e1;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("../components/background.png");
+}
+
+header {
+  text-align: center;
+  background-color: rgb(204, 43, 126);
+  outline: 2px solid #fff;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 30px;
+  box-shadow: 0px 4px 6px rgb(238, 5, 180);
+  font-family: "Times New Roman", Times, serif;
+  width: 1;
+}
+
+.container {
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #ffd4cf;
+  outline: 2px solid #000;
+}
+h1 {
+  text-align: center;
+  color: #d63384;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  color: #d63384;
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.form-container > div {
+  width: 45%;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ffccd5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: 2px solid #000000;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d63384;
+  border-radius: 5px;
+}
+
+input:focus,
+button:focus {
+  outline: 1px solid #000000;
+  border-color: #e91e63;
+}
+
+button {
+  background-color: #d63384;
+  color: white;
+  cursor: pointer;
+  outline: 1px solid #000000;
+}
+
+button:hover {
+  background-color: #e91e63;
+}
+
+.transaction-item {
+  border: 2px solid #000000;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #ffccd5;
+  text-align: center;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.transaction-item button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #d63384;
+  color: white;
+  outline: 1px solid #000000;
+  border-radius: 5px;
+  margin: 10px;
+  align-items: center;
+}
+
+.transaction-item button:hover {
+  background-color: #e91e63;
+}
+.financialoverview {
+  margin-top: 20px;
+  outline: 2px solid #000000;
+  font-size: 18px;
+  background-color: rgb(160, 0, 83);
+  padding: 20px;
+  border-radius: 10px;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  margin-left: 29%;
+}
+
+.details table {
+  width: 80%;
+  border-collapse: collapse;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.details th,
+.details td {
+  border: 1px solid #070707;
+  padding: 10px;
+  text-align: center;
+}
+
+.details th {
+  background-color: rgb(160, 0, 83);
+  color: white;
+  font-weight: bold;
+}
+
+.details td {
+  background-color: #ffccd5;
+  font-size: 20px;
+}
+.details {
+  text-align: center;
+  padding: 20px;
+}
+
+.category {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.amount {
+  font-weight: bold;
+  color: #000000;
+}
+
+.financial-block {
+  display: flex;
+  align-items: center;
+  background-color: #d63384;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  width: 120px;
+  height: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-size: 20px;
+}
+.monthly {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  gap: 20px;
+}
+.prev {
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.buttons {
+  cursor: pointer;
+}
+.month-display {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 10px; /* Add margin for spacing */
+}
+.category {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d63384;
+  border-radius: 5px;
+}
